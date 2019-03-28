@@ -1,12 +1,9 @@
 # interview_experience
 some experiences of interview of  Front-end development
 1：计算一个div的宽度，美其名曰：方便水平居中 
-   var content = $(‘div’). width();//只是获取content宽度
-
+var content = $(‘div’). width();//只是获取content宽度
 var contentWithPadding = $(‘div’). innerWidth();//获取content+padding的宽度
-
 var withoutMargin = $(‘div’). outerWidth();//获取content+padding+border的宽度
-
 var full = $(‘div’). outerWidth(true);//获取content+padding+border+margin的宽度
 
 2.sass的基本用法，平时仅用层叠，不要觉得麻烦不去用，看完阮大大的http://www.ruanyifeng.com/blog/2012/06/sass.html sass介绍，很有用的
